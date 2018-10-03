@@ -27,8 +27,6 @@ See Gifs below to understand flow of App !
 <br/>
 <br/>
 <br/>
-<hr/>
-<br/>
 
 ## Download Magic Print Apk
 
