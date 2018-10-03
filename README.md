@@ -28,6 +28,8 @@ See Gifs below to understand flow of App !
 <br/>
 <br/>
 
+> There is one more Admin App for the same to upload and add products with ease and hassle free, so that you dont have to manually insert > them in database. If required send out a mail to me at [beingdevofficial@gmail.com] and i'll send source code.  
+
 ## Make it Work with Firebase
 
  - Activate firebase database service and set rules as 
@@ -45,3 +47,4 @@ See Gifs below to understand flow of App !
 https://magic-print-8db31.firebaseio.com/
 
 [JSON backup file]: <https://github.com/singhkshitij/MagicPrint/blob/master/magic-print-8db31-export.json>
+[beingdevofficial@gmail.com]: <mailto:beingdevofficial@gmail.com>
