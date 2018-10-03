@@ -7,3 +7,41 @@ See Gifs below to understand flow of App !
 <img align="left" src="https://github.com/singhkshitij/magicprint/blob/master/video2gif_20180205_170751.gif" width="280" height="480" />
 
 <img align="left" src="https://github.com/singhkshitij/magicprint/blob/master/video2gif_20180205_170830.gif" width="280" height="480" />
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## Make it Work with Firebase
+
+ - Activate firebase database service and set rules as 
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+
+ - Then import the below attached JSON files to get some dummy data backup
+[JSON backup file]
+
+### Connected Firebase Database url (in case you need it)
+https://magic-print-8db31.firebaseio.com/
+
+[JSON backup file]: <https://github.com/singhkshitij/MagicPrint/blob/master/magic-print-8db31-export.json>
