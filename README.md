@@ -30,15 +30,15 @@ See Gifs below to understand flow of App !
 <hr/>
 <br/>
 
-> There is one more Admin App for the same to upload and add products with ease and hassle free, so that you dont have to manually insert them in database. If required send out a mail to me at [beingdevofficial@gmail.com] and i'll send source code.  
-
 ## Download Magic Print Apk
 
-<a href="https://drive.google.com/open?id=1xOUxLUPaPIjDlRJ__JNfHPhMbICeqZ_b"><img src="https://frplockbypass.info/wp-content/uploads/2018/04/Free-frp-bypass-apk-300x150.png" height="100" width="250"></a>
+<a href="https://drive.google.com/open?id=1xOUxLUPaPIjDlRJ__JNfHPhMbICeqZ_b"><img src="https://frplockbypass.info/wp-content/uploads/2018/04/Free-frp-bypass-apk-300x150.png"></a>
+
+> There is one more Admin App for the same to upload and add products with ease and hassle free, so that you dont have to manually insert them in database. If required send out a mail to me at [beingdevofficial@gmail.com] and i'll send source code.
 
 ## Download and Test Magic Print Dashboard Apk
 
-<a href="https://drive.google.com/open?id=1_TgDP39XfZ5M2a7MhGQlKM04F_cePL8e"><img src="https://frplockbypass.info/wp-content/uploads/2018/04/Free-frp-bypass-apk-300x150.png" height="100" width="250"></a>
+<a href="https://drive.google.com/open?id=1_TgDP39XfZ5M2a7MhGQlKM04F_cePL8e"><img src="https://frplockbypass.info/wp-content/uploads/2018/04/Free-frp-bypass-apk-300x150.png"></a>
 
 ## Make it Work with Firebase
 
