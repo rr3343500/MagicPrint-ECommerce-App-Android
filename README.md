@@ -27,8 +27,10 @@ See Gifs below to understand flow of App !
 <br/>
 <br/>
 <br/>
+<hr/>
+<br/>
 
-> There is one more Admin App for the same to upload and add products with ease and hassle free, so that you dont have to manually insert > them in database. If required send out a mail to me at [beingdevofficial@gmail.com] and i'll send source code.  
+> There is one more Admin App for the same to upload and add products with ease and hassle free, so that you dont have to manually insert them in database. If required send out a mail to me at [beingdevofficial@gmail.com] and i'll send source code.  
 
 ## Make it Work with Firebase
 
