@@ -66,6 +66,19 @@ https://magic-print-8db31.firebaseio.com/
 
 Simply because we do not want same dB to hold user as well as product and order data under same umbrella. It can be risky at times.
 
+### Have an Issue ?
+Log it into Issue Tracker and will give fix soon.
+
 [JSON backup file]: <https://github.com/singhkshitij/MagicPrint/blob/master/magic-print-8db31-export.json>
 [beingdevofficial@gmail.com]: <mailto:beingdevofficial@gmail.com>
 [Download Php Files alongwith MySQL db schema]: <https://github.com/singhkshitij/MagicPrint/blob/master/UseManagementDbDetails.zip>
+
+```sh
+  ~ Copyright Copyright (c) 2018 Kshitij Singh
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+```
