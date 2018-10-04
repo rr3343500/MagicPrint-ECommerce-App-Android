@@ -28,6 +28,28 @@ See Gifs below to understand flow of App !
 <br/>
 <br/>
 
+## Features Integrated
+- Wishlist
+- Cart
+- Profiles Page
+- Unlimited Categories
+- Unlimited Products Listing
+- Order Placed Page with unique order number
+- Contact Us Page
+- About Us Page
+- Push Notifiation to customers
+- App tour 
+- And much much more , download apk and try to discover !
+
+## Functionalities Enabled
+
+- Listview / Gridview alongwith Image loading
+- Send Push Notications via Onesignal.com
+- Android Animations Via Android Lottie
+- Unique order Id generator for each order
+- Stylish Double hierarchy Navigation drawer
+- And much much more , download apk and try to discover !
+
 ## Download Magic Print Apk
 
 <a href="https://drive.google.com/open?id=1xOUxLUPaPIjDlRJ__JNfHPhMbICeqZ_b"><img src="https://frplockbypass.info/wp-content/uploads/2018/04/Free-frp-bypass-apk-300x150.png"></a>
