@@ -104,3 +104,11 @@ Log it into Issue Tracker and will give fix soon.
   ~
   ~ Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 ```
+### Target Audience Searches - 
+ - e commerce android app source code free download
+ - online shopping android app source code
+ - ecommerce android app
+ - e commerce android app template
+ - android shopping cart source code download	
+ - android shopping app source code free download
+ - open source android ecommerce app
