@@ -2,6 +2,9 @@
 
 MySQL has been used for user registration and login whereas firebase is being user for data maintenance such as user cart , wishlist , placing ording, listing orders etc !
 
+[![HitCount](http://hits.dwyl.io/singhkshitij/singhkshitij/Chootu-Frontend.svg)](http://hits.dwyl.io/singhkshitij/singhkshitij/Chootu-Frontend)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
+
 See Gifs below to understand flow of App !
 
 <img align="left" src="https://github.com/singhkshitij/magicprint/blob/master/video2gif_20180205_170751.gif" width="280" height="480" />
