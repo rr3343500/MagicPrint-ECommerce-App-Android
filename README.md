@@ -55,15 +55,15 @@ See Gifs below to understand flow of App !
 
 ## Download Magic Print Apk
 
-<a href="https://drive.google.com/open?id=1xOUxLUPaPIjDlRJ__JNfHPhMbICeqZ_b"><img src="https://frplockbypass.info/wp-content/uploads/2018/04/Free-frp-bypass-apk-300x150.png"></a>
+<a href="https://drive.google.com/open?id=1xOUxLUPaPIjDlRJ__JNfHPhMbICeqZ_b">Download APK</a>
 
 > There is one more Admin App for the same to upload and add products with ease and hassle free, so that you dont have to manually insert them in database. If required head over to my blog and subscribe, we'll mail you the source code immediately.
 
-<a href="https://codescout.org/subscribe/">Download Admin App Source Code</a>
+<a href="https://codescout.org/subscribe/"><img src="https://frplockbypass.info/wp-content/uploads/2018/04/Free-frp-bypass-apk-300x150.png"></a>
 
 ## Download and Test Magic Print Dashboard Apk
 
-<a href="https://drive.google.com/open?id=1_TgDP39XfZ5M2a7MhGQlKM04F_cePL8e"><img src="https://frplockbypass.info/wp-content/uploads/2018/04/Free-frp-bypass-apk-300x150.png"></a>
+<a href="https://drive.google.com/open?id=1_TgDP39XfZ5M2a7MhGQlKM04F_cePL8e">Download Apk</a>
 
 ## Make User Management work with MySQL
 I have attached php files as well as SQL dB Schema how you should create it. :) Try connecting same way with your won dB.
