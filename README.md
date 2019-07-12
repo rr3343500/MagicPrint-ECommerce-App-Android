@@ -33,7 +33,7 @@ See Gifs below to understand flow of App !
 <br/>
 <br/>
 
-### REPO not under maintainence, if you would like to contribute to maintain repo 
+### REPO not under maintainence, if you would like to contribute or maintain repo :
 
 [Contact Us](https://mytrashcode.com/contribute/).
 
