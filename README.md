@@ -11,26 +11,26 @@ See Gifs below to understand flow of App !
 
 <img align="left" src="https://github.com/singhkshitij/magicprint/blob/master/video2gif_20180205_170830.gif" width="280" height="480" />
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 > **REPO not under maintainence, if you would like to contribute to maintain repo** [Contact Us](https://mytrashcode.com/contribute/).
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Features Integrated
 - Wishlist
