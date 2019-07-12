@@ -30,6 +30,8 @@ See Gifs below to understand flow of App !
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 > **REPO not under maintainence, if you would like to contribute to maintain repo** [Contact Us](https://mytrashcode.com/contribute/).
 
 ## Features Integrated
