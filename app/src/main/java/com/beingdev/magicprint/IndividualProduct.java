@@ -44,7 +44,7 @@ public class IndividualProduct extends AppCompatActivity {
     TextView productdesc;
     @BindView(R.id.quantityProductPage)
     EditText quantityProductPage;
-    @BindView(R.id.add_to_wishlist)
+//    @BindView(R.id.add_to_wishlist)
     LottieAnimationView addToWishlist;
     @BindView(R.id.customheader)
     EditText customheader;

@@ -13,16 +13,17 @@
 
         <ImageView
             android:id="@+id/logo"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/paw"/>
+            android:src="@drawable/icon"/>
 
         <TextView
             android:layout_marginTop="10dp"
             android:textColor="#fff"
             android:textSize="35sp"
+            android:visibility="gone"
             android:id="@+id/appname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

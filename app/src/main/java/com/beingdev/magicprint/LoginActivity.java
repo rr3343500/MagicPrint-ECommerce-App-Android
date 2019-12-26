@@ -102,6 +102,12 @@ public class LoginActivity extends AppCompatActivity {
 
                 email=edtemail.getText().toString();
                 pass=edtpass.getText().toString();
+//=====================================================================
+                Intent loginSuccess = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(loginSuccess);
+                finish();
+
+                //============================================================
 
                 if (validateUsername(email) && validatePassword(pass)) { //Username and Password Validation
 

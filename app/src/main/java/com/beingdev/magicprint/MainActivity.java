@@ -6,12 +6,17 @@ import android.os.Bundle;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.beingdev.magicprint.config.Constants;
+import com.beingdev.magicprint.connection.ConnectionServer;
+import com.beingdev.magicprint.connection.JsonHelper;
 import com.beingdev.magicprint.networksync.CheckInternetConnection;
 import com.beingdev.magicprint.prodcutscategory.Bags;
 import com.beingdev.magicprint.prodcutscategory.Calendars;
@@ -43,6 +48,8 @@ import com.mikepenz.materialdrawer.util.DrawerUIUtils;
 import com.mikepenz.materialize.util.UIUtils;
 import com.webianks.easy_feedback.EasyFeedback;
 
+import org.json.JSONArray;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -53,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
     private SliderLayout sliderShow;
     private Drawer result;
     private CrossfadeDrawerLayout crossfadeDrawerLayout = null;
+    RecyclerView category;
 
 
     //to get user session data
@@ -67,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        category=(RecyclerView)findViewById(R.id.category);
         Typeface typeface = ResourcesCompat.getFont(this, R.font.blacklist);
         TextView appname = findViewById(R.id.appname);
         appname.setTypeface(typeface);
@@ -212,8 +221,8 @@ public class MainActivity extends AppCompatActivity {
         //Profile Making
         IProfile profile = new ProfileDrawerItem()
                 .withName(name)
-                .withEmail(email)
-                .withIcon(photo);
+                .withEmail(email);
+               // .withIcon(photo);
 
         AccountHeader headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
@@ -408,32 +417,67 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, NotificationActivity.class));
     }
 
-    public void cardsActivity(View view) {
-        startActivity(new Intent(MainActivity.this, Cards.class));
-    }
+//    public void cardsActivity(View view) {
+//        startActivity(new Intent(MainActivity.this, Cards.class));
+//    }
 
-    public void tshirtActivity(View view) {
-        startActivity(new Intent(MainActivity.this, Tshirts.class));
-    }
+//    public void tshirtActivity(View view) {
+//        startActivity(new Intent(MainActivity.this, Tshirts.class));
+//    }
 
 
-    public void bagsActivity(View view) {
+//    public void bagsActivity(View view) {
+//
+//        startActivity(new Intent(MainActivity.this, Bags.class));
+//    }
 
-        startActivity(new Intent(MainActivity.this, Bags.class));
-    }
+//    public void stationaryAcitivity(View view) {
+//
+//        startActivity(new Intent(MainActivity.this, Stationary.class));
+//    }
 
-    public void stationaryAcitivity(View view) {
+//    public void calendarsActivity(View view) {
+//
+//        startActivity(new Intent(MainActivity.this, Calendars.class));
+//    }
 
-        startActivity(new Intent(MainActivity.this, Stationary.class));
-    }
+//    public void keychainsActivity(View view) {
+//
+//        startActivity(new Intent(MainActivity.this, Keychains.class));
+//    }
 
-    public void calendarsActivity(View view) {
+    public void setCategory(){
+        ConnectionServer connectionServer = new ConnectionServer();
+        connectionServer.set_url(Constants.CATEGORIES);
+        connectionServer.requestedMethod("POST");
+        connectionServer.execute(new ConnectionServer.AsyncResponse() {
+            @Override
+            public void processFinish(String output) {
+                JsonHelper jsonHelper = new JsonHelper(output);
+                Log.e("output" , output);
+                if (jsonHelper.isValidJson()) {
+                    String response = jsonHelper.GetResult("response");
+                    if (response.equals("TRUE")) {
+                        JSONArray jsonArray = jsonHelper.setChildjsonArray(jsonHelper.getCurrentJsonObj(), "data");
 
-        startActivity(new Intent(MainActivity.this, Calendars.class));
-    }
+                        Log.e("json", String.valueOf(jsonArray));
 
-    public void keychainsActivity(View view) {
+                        for (int i = 0; i < jsonArray.length(); i++) {
+                            jsonHelper.setChildjsonObj(jsonArray, i);
 
-        startActivity(new Intent(MainActivity.this, Keychains.class));
+
+                        }
+
+
+
+                    }
+
+
+
+                }
+
+            }
+        });
+
     }
 }

@@ -152,7 +152,7 @@
                 android:layout_height="30dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="8dp"
-                android:weightSum="3">
+                android:weightSum="2">
 
                 <LinearLayout android:id="@+id/layout_action1"
                     android:layout_width="0dp"
@@ -196,46 +196,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
                         android:text="Similar"
                         android:textSize="12dp"
                         android:textColor="@color/gen_black"
-                        android:gravity="left"/>
+                        />
                 </LinearLayout>
 
-                <View android:layout_width="@dimen/view_width_small"
-                    android:layout_height="match_parent"
-                    android:background="@color/grey_light"/>
 
-                <LinearLayout
-                    android:id="@+id/layout_action3"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:weightSum="2"
-                    android:onClick="addToWishList">
-
-                    <com.airbnb.lottie.LottieAnimationView
-                        android:id="@+id/add_to_wishlist"
-                        android:layout_width="40dp"
-                        app:lottie_fileName="heart.json"
-                        android:layout_height="40dp"
-                        android:foregroundGravity="center"
-                        android:src="@drawable/cartempty"
-                        android:visibility="visible"/>
-
-                    <TextView android:id="@+id/text_action3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_marginLeft="8dp"
-                        android:text="Wishlist"
-                        android:textSize="12dp"
-                        android:textColor="@color/gen_black"
-                        android:gravity="left"/>
-                </LinearLayout>
             </LinearLayout>
             <View android:layout_width="match_parent"
                 android:layout_height="@dimen/view_width_small"

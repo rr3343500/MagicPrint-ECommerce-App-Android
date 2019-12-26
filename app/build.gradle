@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.onesignal:OneSignal:3.+@aar'
+    implementation 'com.onesignal:OneSignal:+@aar'
 
     //database operation lib
     implementation 'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
@@ -47,9 +47,9 @@ dependencies {
 
     implementation 'com.google.android.gms:play-services:11.0.1'
 
-    implementation 'com.android.support:support-v4:27.0.2'
+//    implementation 'com.android.support:support-v4:27.0.1'
 
-    implementation 'com.android.support:design:27.0.2'
+//    implementation 'com.android.support:design:27.0.0'
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -70,10 +70,10 @@ dependencies {
 
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
 
-    implementation('com.mikepenz:aboutlibraries:6.0.1@aar') {
+    implementation('com.mikepenz:aboutlibraries:6.0.8@aar') {
         transitive = true
     }
-    implementation("com.mikepenz:materialdrawer:6.0.2@aar") {
+    implementation("com.mikepenz:materialdrawer:6.0.8@aar") {
         transitive = true
     }
     implementation 'com.squareup.picasso:picasso:2.3.2'
@@ -94,9 +94,9 @@ dependencies {
 
     implementation 'de.hdodenhof:circleimageview:2.2.0'
 
-    implementation 'com.android.volley:volley:1.0.0'
+  implementation 'com.android.volley:volley:1.1.0'
 
-    implementation 'com.kaopiz:kprogresshud:1.1.0'
+   implementation 'com.kaopiz:kprogresshud:1.1.0'
 
     implementation 'com.getkeepsafe.taptargetview:taptargetview:1.11.0'
 
